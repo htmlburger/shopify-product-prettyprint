@@ -63,6 +63,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
+    "watch": "cra-build-watch",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
@@ -124,5 +125,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "cra-build-watch": "^1.4.0"
   }
 }
