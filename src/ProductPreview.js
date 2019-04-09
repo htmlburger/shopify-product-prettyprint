@@ -4,7 +4,7 @@ class ProductPreview extends Component {
   render() {
     return (
       <pre>
-        { this.props.product && JSON.stringify(this.props.product) }
+        { this.props && JSON.stringify(this.props.product, null, 2) }
       </pre>
     );
   }

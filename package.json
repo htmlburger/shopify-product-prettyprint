@@ -2,7 +2,6 @@
   "name": "septa",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8080/",
   "dependencies": {
     "@babel/core": "7.2.2",
     "@shopify/polaris": "^3.12.0",
